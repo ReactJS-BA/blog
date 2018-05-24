@@ -1,0 +1,40 @@
+{
+  "name": "reactjs-ba",
+  "version": "1.0.0",
+  "description": "sitio de la comunidad de reactjs en buenos aires",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w server.js server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactJS-BA/blog.git"
+  },
+  "keywords": [
+    "react",
+    "baires",
+    "next",
+    "styled-components",
+    "reactjs",
+    "nextjs",
+    "node",
+    "express",
+    "comunidad"
+  ],
+  "author": "Carlos Manotas <carlosmanotas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReactJS-BA/blog/issues"
+  },
+  "homepage": "https://github.com/ReactJS-BA/blog#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^6.0.3",
+    "nodemon": "^1.17.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "styled-components": "^3.2.6"
+  }
+}
