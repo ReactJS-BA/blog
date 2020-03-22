@@ -14,9 +14,11 @@ const About = styled.div`
     font-size: 16px;
     cursor: pointer;
     margin-bottom: 15px;
+    background: white;
+    border: none;
   }
   h2 {
-    font-size: 3em;
+    font-size: 20px;
     color: white;
   }
   ul {
@@ -54,6 +56,9 @@ const About = styled.div`
     }
   }
   @media (min-width: 768px) {
+    h2 {
+      font-size: 3em;
+    }
     ul {
       justify-content: space-between;
       li {
