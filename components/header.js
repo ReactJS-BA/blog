@@ -41,12 +41,21 @@ const Header = styled.header`
 const Layout = styled(NewLayout)`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   a {
     color: #eeeeee;
     text-decoration: none;
     &:hover {
       color: rgba(97, 219, 251, 1);
+    }
+  }
+  a.optionalLink {
+    display: none;
+  }
+  @media (min-width: 768px) {
+    justify-content: space-between;
+    a.optionalLink {
+      display: block;
     }
   }
 `;
@@ -71,10 +80,18 @@ const HeaderComponent = () => (
             <img src="/static/icon.png" />
           </figure>
         </a>
-        <a href="https://t.co/Pw9fPLd2nv?amp=1" target="_blank">
+        <a
+          className="optionalLink"
+          href="https://t.co/Pw9fPLd2nv?amp=1"
+          target="_blank"
+        >
           QUIERO DAR UNA CHARLA
         </a>
-        <a href="https://t.co/h6wtTx6mGE?amp=1" target="_blank">
+        <a
+          className="optionalLink"
+          href="https://t.co/h6wtTx6mGE?amp=1"
+          target="_blank"
+        >
           QUIERO PROPONER LUGAR
         </a>
       </Layout>
