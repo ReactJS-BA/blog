@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/ReactJS-BA/blog#readme",
   "dependencies": {
-    "next": "9.3.3",
+    "next": "13.5.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "styled-components": "5.0.1"
